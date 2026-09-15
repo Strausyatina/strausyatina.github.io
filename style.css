@@ -239,3 +239,9 @@ a {
     width: calc(100% - 26px);
   }
 }
+
+.main-page .interests {
+  max-width: 650px;
+  margin: 24px auto 0;
+  color: var(--text);
+}
