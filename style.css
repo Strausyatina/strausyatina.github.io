@@ -245,3 +245,21 @@ a {
   margin: 24px auto 0;
   color: var(--text);
 }
+
+.profile-photo {
+  display: block;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto 30px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+@media (max-width: 640px) {
+  .profile-photo {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+  }
+}
